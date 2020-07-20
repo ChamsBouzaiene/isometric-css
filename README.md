@@ -7,12 +7,9 @@ fall in love with isometric projection , so i created this repo to post all mypu
  
 <!-- blank line -->
 
-<div>
-<div class="cp_embed_wrapper">
- <iframe name="cp_embed_1" src="https://codepen.io/alchemist107/embed/LYGdzjL?height=265&amp;theme-id=0&amp;default-tab=result&amp;user=claireparker&amp;slug-hash=Zvwzby&amp;pen-title=Gradient%20Text&amp;name=cp_embed_1" scrolling="no" frameborder="0" height="265" allowtransparency="true" allowfullscreen="true" allowpaymentrequest="true" title="Gradient Text" class="cp_embed_iframe " style="width: 100%; overflow:hidden; display:block;" loading="lazy" id="cp_embed_Zvwzby">
- </iframe>
- </div>
-<script async="" src="https://static.codepen.io/assets/embed/ei.js"></script>
- </div>
+<p>
+ <iframe height="600" src="https://codepen.io/alchemist107/embed/LYGdzjL?height=600&amp;default-tab=result&amp;embed-version=2" scrolling="no" frameborder="no" allowtransparency="true" loading="lazy" style="width: 100%;">
+</iframe>
+</p>
 
 <!-- blank line -->
