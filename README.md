@@ -7,5 +7,5 @@ fall in love with isometric projection , so i created this repo to post all mypu
  
 <!-- blank line -->
 
-unforatunally github doesn't allow embedding iframes so i will post screenshots of my work and you can follow the collection via the link above .
+unforatunally github doesn't allow embedding iframes so i will post screenshots of my work and you can follow the collection via the link above :/ .
 <!-- blank line -->
