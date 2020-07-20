@@ -5,7 +5,7 @@ fall in love with isometric projection , so i created this repo to post all mypu
 
  [codepen](https://codepen.io/collection/nwYVGZ) - my isometric codepen collection
  
-<!--more-->
+<!-- blank line -->
 
 <div>
 <div class="cp_embed_wrapper">
@@ -14,3 +14,5 @@ fall in love with isometric projection , so i created this repo to post all mypu
  </div>
 <script async="" src="https://static.codepen.io/assets/embed/ei.js"></script>
  </div>
+
+<!-- blank line -->
