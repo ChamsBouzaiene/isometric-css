@@ -11,6 +11,6 @@ unforatunally github doesn't allow embedding iframes so i will post screenshots 
 <!-- blank line -->
 
 
-<img src="https://i.imgur.com/69MYVKJ.png"
+<img src="https://github.com/alchemist107/isometric-css/blob/master/Screenshot%20from%202020-07-21%2015-24-39.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
