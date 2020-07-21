@@ -1,0 +1,96 @@
+@import "bourbon";
+
+$shift: 80px;
+$size: 100px;
+$duration: 1.5s;
+
+@mixin material($width, $height) {
+  $color: rgb(random(255), random(255), random(255));
+  width: $width;
+  height: $height;
+  border-radius: 2px;
+  background: $color;
+  border-bottom: 2px solid darken($color, 20%);
+  border-right: 2px solid darken($color, 20%);
+}
+
+body {
+  background-color: #ededed;
+}
+
+.isometric {
+  @include transform(
+    rotateX(60deg) rotateY(0deg) rotateZ(45deg) translate(-38%, 38%)
+      scale3d(1, 1, 1)
+  );
+}
+
+.sheet {
+  @include material($size, $size);
+  @include animation(lift $duration ease-in-out alternate infinite);
+  overflow: hidden;
+}
+
+.test {
+  @include material($size, $size);
+}
+
+.test-1 {
+  @include material($size, $size);
+}
+.test-2 {
+  @include material($size, $size);
+}
+
+.test-3 {
+  @include material($size, $size);
+}
+
+.test-4 {
+  @include material($size, $size);
+}
+
+.test-5 {
+  @include material($size, $size);
+}
+
+.test-6 {
+  @include material($size, $size);
+}
+
+.test-7 {
+  @include material($size, $size);
+}
+
+.test-8 {
+  @include material($size, $size);
+}
+
+.floor {
+  @include material(auto, auto);
+  padding: 50px;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+}
+
+.grid {
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 1px;
+  grid-template-rows: repeat(8, 1fr);
+  display: grid;
+}
+
+@include keyframes(lift) {
+  20%,
+  from {
+    @include transform(translate(0, 0));
+    box-shadow: -1px 2px 2px -2px rgba(black, 0.3);
+  }
+  80%,
+  to {
+    @include transform(translate(-$shift, -$shift));
+    box-shadow: $shift $shift * 1.4 $shift / 2 rgba(black, 0.2),
+      $shift $shift $shift / 2 rgba(black, 0.2);
+  }
+}

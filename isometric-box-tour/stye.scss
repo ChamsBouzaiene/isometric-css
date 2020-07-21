@@ -1,0 +1,127 @@
+$top: #b9dd70;
+$front: #83d281;
+$side: #6aaf96;
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #cee7d4 0%, #f5f4c9 100%);
+  overflow: hidden;
+}
+
+.world {
+  position: relative;
+  top: 25vh;
+  left: 50vw;
+  width: 400px;
+  height: 400px;
+}
+
+.cube {
+  width: 40px;
+  height: 40px;
+  transform-origin: 0 0;
+}
+
+.top {
+  background-color: $top;
+  transform: rotate(210deg) skew(-30deg) scaleY(0.864);
+}
+
+.front {
+  height: 40px;
+  background: #83d281;
+  transform: rotate(-30deg) skewX(-30deg) translate(0, -34px) scaleY(0.864);
+}
+
+.side {
+  width: 40px;
+  background: #6aaf96;
+  transform: rotate(90deg) skewX(-30deg) scaleY(0.864) translate(-80px, 0);
+}
+.world {
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1px;
+  grid-template-rows: repeat(2, 1fr);
+  display: grid;
+}
+
+.tile {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 4;
+  transition: top 2s;
+  animation-name: anim-1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.tile-2 {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  z-index: 2;
+  animation-name: anim-2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.tile-3 {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  z-index: 1;
+  animation-name: anim-3;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.tile-4 {
+  position: absolute;
+  top: 150px;
+  left: 0px;
+  z-index: 0;
+  animation-name: anim-4;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.tile:hover {
+  top: -50px;
+}
+
+@keyframes anim-0 {
+  from {
+    top: 0;
+  }
+  to {
+    top: 50px;
+  }
+}
+
+@keyframes anim-2 {
+  from {
+    top: 50px;
+  }
+  to {
+    top: 100px;
+  }
+}
+
+@keyframes anim-3 {
+  from {
+    top: 100px;
+  }
+  to {
+    top: 150px;
+  }
+}
+
+@keyframes anim-4 {
+  from {
+    top: 150px;
+  }
+  to {
+    top: 240px;
+  }
+}
